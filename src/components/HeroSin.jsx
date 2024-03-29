@@ -21,7 +21,7 @@ function HeroSin() {
 
                     <div className=''>
                         <p className='font-mono md:text-4xl sm:text-3xl text-2xl py-4'>
-                            Welcome in &nbsp;
+                            Welcome to &nbsp;
                             <ReactTyped
                                 className='font-mono md:text-4xl sm:text-3xl text-2xl'
                                 strings={['ByteBucks']}

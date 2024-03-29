@@ -5,7 +5,7 @@ import { SignInButton } from '@clerk/clerk-react';
 
 function Hero() {
   return (
-    <div id='Hero'>
+    <div id='Hero' className='top-5'>
       <div className="text-white">
         <div className='max-w-[900px] mt-[-96px] h-screen  mx-auto text-center flex flex-col justify-center'>
           <p className='text-orange-400 text-sm font-bold p-2'>Every Bit, Worth it!!</p>

@@ -7,6 +7,7 @@ import AboutUs from "./components/AboutUs";
 import Payment from "./components/Payment";
 import Updates from "./components/Updates";
 import Footer from "./components/Footer";
+import Tips from "./components/Tips";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Header id="Home"/>
         <Hero/>
         <AboutUs/>
+        <Tips/>
         <Updates/>
         <Footer/>
       </SignedOut>
@@ -23,6 +25,7 @@ export default function App() {
         <HeroSin/>
         <AboutUs/>
         <Payment/>
+        <Tips/>
         <Updates/>
         <Footer/>
       </SignedIn>

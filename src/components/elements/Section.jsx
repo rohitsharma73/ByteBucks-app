@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Section({ img, mainHeading,para,style,bg }) {
+function Section({ img, mainHeading,para,para2,style,style2,bg }) {
   return (
     <>
       <div className={`${bg} py-16 px-4 w-full`} >
@@ -11,9 +11,11 @@ function Section({ img, mainHeading,para,style,bg }) {
             <p className={`${style} font-mono`}>
               {para}
             </p>
+            <p className={`${style2} font-mono`}>
+              {para2}
+            </p>
           </div>
         </div>
-
       </div>
     </>
   )
