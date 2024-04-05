@@ -19,8 +19,9 @@ function Header() {
                 <ul className='md:flex hidden text-xl gap-5'>
                     <Link to="#Hero" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Home</Link>
                     <Link to="#AboutUs" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>About</Link>
-                    <Link to="#Updates" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Updates</Link>
                     <Link to="#Tips" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Grow</Link>
+                    <Link to="#Schemes" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Schemes</Link>
+                    <Link to="#Updates" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Updates</Link>
                 </ul>
                 <SignInButton className='md:flex hidden border w-[200px] mx-5 my-6 py-3  justify-center text-white font-bold rounded-md border-white border-l-2 uppercase  hover:border-orange-500 hover:text-orange-400 duration-500 ease-in-out' />
 
@@ -37,8 +38,9 @@ function Header() {
                     <ul className='uppercase p-4 flex flex-col'>
                         <Link to="#Hero" className='p-4 border-b border-gray-600'>Home</Link>
                         <Link to="#AboutUs" className='p-4 border-b border-gray-600'>About</Link>
-                        <Link to="#Updates" className='p-4 border-b border-gray-600'>Update</Link>
                         <Link to="#Tips" className='p-4 border-b border-gray-600'>Grow</Link>
+                        <Link to="#Schemes" className='p-4 border-b border-gray-600'>Schemes</Link>
+                        <Link to="#Updates" className='p-4 border-b border-gray-600'>Update</Link>
                         <SignInButton className='px-4 py-2 m-2 border font-mono border-white border-l-2 hover:border-orange-400 hover:text-orange-400' />
                     </ul>
                 </div>

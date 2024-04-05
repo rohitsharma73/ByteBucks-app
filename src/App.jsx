@@ -8,6 +8,7 @@ import Payment from "./components/Payment";
 import Updates from "./components/Updates";
 import Footer from "./components/Footer";
 import Tips from "./components/Tips";
+import Schemes from "./components/Schemes";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Hero/>
         <AboutUs/>
         <Tips/>
+        <Schemes/>
         <Updates/>
         <Footer/>
       </SignedOut>
@@ -26,6 +28,7 @@ export default function App() {
         <AboutUs/>
         <Payment/>
         <Tips/>
+        <Schemes/>
         <Updates/>
         <Footer/>
       </SignedIn>
