@@ -18,12 +18,13 @@ function HeaderSin() {
 
                 {/* large scree nav links */}
                 <ul className='md:flex hidden text-xl gap-5'>
-                    <Link to="#HeroSin" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Home</Link>
-                    <Link to="#AboutUs" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>About</Link>
-                    <Link to="#Payment" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Payment</Link>
-                    <Link to="#Tips" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Grow</Link>
-                    <Link to="#Schemes" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Schemes</Link>
-                    <Link to="#Updates" smooth className='p-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Updates</Link>
+                    <Link to="#HeroSin" smooth className='px-2 py-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Home</Link>
+                    <Link to="#AboutUs" smooth className='px-2 py-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>About</Link>
+                    <Link to="#Payment" smooth className='px-2 py-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Pay</Link>
+                    <Link to="#PaymentHistory" smooth className='px-2 py-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>PayHis</Link>
+                    <Link to="#Tips" smooth className='px-2 py-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Grow</Link>
+                    <Link to="#Schemes" smooth className='px-2 py-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Schemes</Link>
+                    <Link to="#Updates" smooth className='px-2 py-4 hover:text-orange-400  transition-all ease-in-out duration-500 font-mono uppercase'>Updates</Link>
                     <Coins />
                     <UserButton />
                 </ul>
@@ -44,6 +45,7 @@ function HeaderSin() {
                         <Link to="#HeroSin"  className='p-4 border-b border-gray-600'>Home</Link>
                         <Link to="#AboutUs"  className='p-4 border-b border-gray-600'>About</Link>
                         <Link to="#Payment"  className='p-4 border-b border-gray-600'>Payment</Link>
+                        <Link to="#PaymentHistory"  className='p-4 border-b border-gray-600'>Payment History</Link>
                         <Link to="#Tips" className='p-4 border-b border-gray-600'>Grow</Link>
                         <Link to="#Schemes" className='p-4 border-b border-gray-600'>Schemes</Link>
                         <Link to="#Updates" className='p-4 border-b border-gray-600'>Update</Link>

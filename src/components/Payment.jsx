@@ -9,7 +9,7 @@ function Payment() {
         mainHeading={'Payments'} 
         img={barcode}
         para={"Note: Please Provide logined email id in comment while UPI payment or call the provided number to update the ByteBucks in your account."} 
-        para2={"Exchange Rate: 1BB Coin = 1/10 of Carbon Credit"}
+        para2={"Exchange Rate: 1BB Coin = ₹2 (1/10 of Carbon Credit)"}
         style={'text-2xl'}
         style2={'text-blue-900 text-2xl'}
         bg={'bg-orange-400'}/>

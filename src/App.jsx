@@ -9,6 +9,7 @@ import Updates from "./components/Updates";
 import Footer from "./components/Footer";
 import Tips from "./components/Tips";
 import Schemes from "./components/Schemes";
+import PaymentHistory from "./components/PaymentHistory";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <HeroSin/>
         <AboutUs/>
         <Payment/>
+        <PaymentHistory/>
         <Tips/>
         <Schemes/>
         <Updates/>
